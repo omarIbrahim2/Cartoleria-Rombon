@@ -1,7 +1,7 @@
 import Hoverable from './Hoverable'
 
 const orari = [
-  { giorno: 'Lunedì – Venerdì', ore: '08:30 – 13:00 / 15:00 – 19:30' },
+  { giorno: 'Lunedì – Venerdì', ore: '08:30 – 13:00 / 15:00 – 19:00' },
   { giorno: 'Sabato', ore: '08:30 – 13:00' },
   { giorno: 'Domenica', ore: 'Chiuso' },
 ]
