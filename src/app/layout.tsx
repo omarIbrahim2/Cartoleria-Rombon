@@ -1,0 +1,15 @@
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Cartoleria Rombon — Via Rombon 23, Milano',
+  description: 'Cartoleria, fotocopie, belle arti, Fermopoint, GLS, UPS, BRT — Via Rombon 23, Lambrate Milano',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="it">
+      <body>{children}</body>
+    </html>
+  )
+}
