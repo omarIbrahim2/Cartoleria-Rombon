@@ -80,6 +80,25 @@ export default function ServizioPacchi() {
             <p style={{ color: 'var(--blue-100)', fontSize: 14 }}>Porta semplicemente il tuo codice di ritiro o l'avviso di consegna mancata. Pensiamo a tutto noi.</p>
           </div>
         </div>
+
+        {/* Spedizioni annuncio */}
+        <div style={{
+          marginTop: 20, background: '#fefce8', border: '2px solid #f59e0b', borderRadius: 12,
+          padding: '24px 32px', display: 'flex', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap',
+        }}>
+          <span style={{ fontSize: 28 }}>📢</span>
+          <div>
+            <p style={{ color: '#92400e', fontWeight: 700, fontSize: 16, marginBottom: 6 }}>
+              Nuovo servizio: Spedizioni in tutta Italia e all'estero
+            </p>
+            <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7 }}>
+              Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio
+              tramite <strong>Fermopoint</strong> o <strong>UPS</strong>.
+              Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione e peso.
+              Vieni in negozio per un preventivo!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )
