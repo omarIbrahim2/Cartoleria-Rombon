@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Hoverable from './Hoverable'
 
 const carriers = [
@@ -8,6 +9,7 @@ const carriers = [
     border: '#2563b0',
     desc: 'Ritiro e deposito pacchi Fermopoint. Ricevi i tuoi ordini direttamente in negozio, disponibile anche fuori orario di consegna.',
     badge: 'Ritiro & Deposito',
+    url: null,
   },
   {
     name: 'GLS',
@@ -16,6 +18,7 @@ const carriers = [
     border: '#3b82f6',
     desc: 'Punto di raccolta GLS autorizzato. Spedisci o ritira i tuoi pacchi GLS comodamente in negozio.',
     badge: 'Spedizioni',
+    url: 'https://gls-group.com/IT/it/servizi-online/ricerca-spedizioni',
   },
   {
     name: 'UPS',
@@ -24,6 +27,7 @@ const carriers = [
     border: '#f59e0b',
     desc: 'Access Point UPS ufficiale. Ritiro pacchi non consegnati e spedizioni verso tutto il mondo.',
     badge: 'Access Point',
+    url: 'https://www.ups.com/track?loc=it_IT&requester=ST/',
   },
   {
     name: 'BRT',
@@ -32,6 +36,7 @@ const carriers = [
     border: '#dc2626',
     desc: 'Punto di ritiro BRT (Bartolini). Gestisci le tue spedizioni BRT senza code, direttamente qui da noi.',
     badge: 'Punto Ritiro',
+    url: 'https://services.brt.it/it/tracking',
   },
 ]
 
@@ -50,23 +55,31 @@ export default function ServizioPacchi() {
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 24 }}>
-          {carriers.map((c, i) => (
-            <Hoverable key={i} style={{
-              background: c.color, borderRadius: 12, padding: '28px 24px',
-              border: `2px solid ${c.border}30`, position: 'relative', overflow: 'hidden',
-              transition: 'transform 0.2s, box-shadow 0.2s',
-            }}
-              hoverStyle={{ transform: 'translateY(-4px)', boxShadow: `0 8px 24px ${c.border}25` }}>
-              <span style={{
-                position: 'absolute', top: 16, right: 16, background: c.border, color: 'white',
-                fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase',
-                padding: '3px 10px', borderRadius: 20,
-              }}>{c.badge}</span>
-              <div style={{ fontSize: 40, marginBottom: 12 }}>{c.logo}</div>
-              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: 22, color: 'var(--blue-900)', marginBottom: 10 }}>{c.name}</h3>
-              <p style={{ color: 'var(--gray-700)', fontSize: 14, lineHeight: 1.7 }}>{c.desc}</p>
-            </Hoverable>
-          ))}
+          {carriers.map((c, i) => {
+            const card = (
+              <Hoverable key={i} style={{
+                background: c.color, borderRadius: 12, padding: '28px 24px',
+                border: `2px solid ${c.border}30`, position: 'relative', overflow: 'hidden',
+                transition: 'transform 0.2s, box-shadow 0.2s',
+                cursor: c.url ? 'pointer' : 'default',
+              }}
+                hoverStyle={{ transform: 'translateY(-4px)', boxShadow: `0 8px 24px ${c.border}25` }}>
+                <span style={{
+                  position: 'absolute', top: 16, right: 16, background: c.border, color: 'white',
+                  fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase',
+                  padding: '3px 10px', borderRadius: 20,
+                }}>{c.badge}</span>
+                <div style={{ fontSize: 40, marginBottom: 12 }}>{c.logo}</div>
+                <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: 22, color: 'var(--blue-900)', marginBottom: 10 }}>{c.name}</h3>
+                <p style={{ color: 'var(--gray-700)', fontSize: 14, lineHeight: 1.7 }}>{c.desc}</p>
+              </Hoverable>
+            )
+            return c.url ? (
+              <Link key={i} href={c.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', color: 'inherit' }}>
+                {card}
+              </Link>
+            ) : card
+          })}
         </div>
 
         {/* Info strip */}
