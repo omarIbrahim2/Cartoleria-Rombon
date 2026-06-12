@@ -104,6 +104,7 @@ export default function ServizioPacchi() {
               Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio
               tramite <strong>Fermopoint</strong> o <strong>UPS</strong>.
               Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione, peso e dimensioni.
+              La dimensione massima accettata per ogni pacco è <strong>50 × 35 × 30 cm</strong>.
             </p>
           </div>
         </Hoverable>
