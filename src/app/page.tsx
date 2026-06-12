@@ -5,6 +5,7 @@ import ServizioPacchi from '@/components/ServizioPacchi'
 import Catalogo from '@/components/Catalogo'
 import Orari from '@/components/Orari'
 import Footer from '@/components/Footer'
+import WhatsAppFloat from '@/components/WhatsAppFloat'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Orari />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   )
 }
