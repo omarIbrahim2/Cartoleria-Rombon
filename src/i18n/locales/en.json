@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "services": "Services",
+    "parcels": "Parcel Service",
+    "catalog": "Catalog",
+    "hours": "Hours & Contacts"
+  },
+  "hero": {
+    "subtitle": "Your go-to destination in Lambrate for stationery, photocopies, shipping and much more.",
+    "cta_services": "Our services",
+    "cta_contact": "Hours & contacts"
+  },
+  "services": {
+    "label": "What we do",
+    "title": "Our services",
+    "items": [
+      { "title": "Stationery & Office", "desc": "Pens, pencils, notebooks, planners, folders, envelopes and everything you need for school and office." },
+      { "title": "Photocopies & Printing", "desc": "Black & white and colour photocopies, document printing, lamination and binding on the spot." },
+      { "title": "Fine Arts", "desc": "Acrylic and oil paints, canvases, brushes and supplies for professional and hobby artists." },
+      { "title": "Gift Items", "desc": "Greeting cards, wrapping paper, ribbons, bows and packaging articles for every occasion." },
+      { "title": "Personalisation", "desc": "Print on mugs, cushions, beach towels, personalised calendars and gadgets with your photos or logo." },
+      { "title": "Shipping & Parcels", "desc": "Parcel pick-up and delivery with Fermopoint, GLS, UPS and BRT. Packaging supplies available in store." }
+    ]
+  },
+  "parcels": {
+    "label": "Shipping & pick-ups",
+    "title": "Parcel Service",
+    "subtitle": "We are an official pick-up and drop-off point for all major couriers. One stop for all your shipments.",
+    "carriers": [
+      { "desc": "Fermopoint pick-up and deposit point. Receive your orders directly in store, available outside normal delivery hours.", "badge": "Pick-up & Drop-off" },
+      { "desc": "Authorised GLS collection point. Ship or collect your GLS parcels comfortably in our store.", "badge": "Shipping" },
+      { "desc": "Official UPS Access Point. Collect undelivered parcels and ship worldwide.", "badge": "Access Point" },
+      { "desc": "BRT (Bartolini) pick-up point. Manage your BRT shipments without queues, right here.", "badge": "Pick-up Point" }
+    ],
+    "info_title": "No extra charge for pick-up",
+    "info_desc": "Simply bring your pick-up code or the missed delivery notice. We will take care of everything.",
+    "announcement_badge": "New",
+    "announcement_title": "Shipping across Italy and abroad",
+    "announcement_desc": "You can now ship your parcels anywhere — within Italy and worldwide — directly from our store via <bold>Fermopoint</bold> or <bold>UPS</bold>. The service has an <bold>additional cost</bold> based on destination, weight and size. The maximum accepted size for any parcel is <bold>50 × 35 × 30 cm</bold>."
+  },
+  "catalog": {
+    "label": "What you'll find",
+    "title": "Our catalog",
+    "items": [
+      { "name": "Stationery", "products": ["Lined and squared notebooks", "Diaries and annual planners", "Notepads", "Post-it and memo pads", "Ballpoint and gel pens", "Pencils and coloured pencils", "Highlighters", "Markers and felt-tips"] },
+      { "name": "Organisation", "products": ["Ring binders and folders", "Envelopes and document wallets", "Address books and card files", "Staplers and hole punches"] },
+      { "name": "Fine Arts", "products": ["Acrylic and oil paints", "Brushes and palettes", "Canvases and sketchbooks", "Watercolours and pastels"] },
+      { "name": "Gift Items", "products": ["Cards and notecards", "Wrapping paper and ribbons", "Boxes and packaging", "Decorations and bows"] },
+      { "name": "Paper & Print", "products": ["A4/A3 reams of paper", "Photo paper", "Self-adhesive labels", "Special inkjet paper"] }
+    ]
+  },
+  "hours": {
+    "when_label": "When we're open",
+    "when_title": "Hours",
+    "schedule": [
+      { "day": "Monday – Friday", "hours": "08:30 – 13:00 / 15:00 – 19:00" },
+      { "day": "Saturday", "hours": "09:00 – 13:00" },
+      { "day": "Sunday", "hours": "Closed" }
+    ],
+    "closed": "Closed",
+    "where_label": "Where we are",
+    "where_title": "Contacts",
+    "contacts": [
+      { "label": "Address", "value": "Via Rombon 23, 20134 Milano" },
+      { "label": "Phone", "value": "02 2157232" },
+      { "label": "Metro", "value": "M2 Lambrate (5 min walk)" }
+    ],
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_note": "messages only",
+    "whatsapp_value": "+39 344 0729",
+    "maps_btn": "Open in Google Maps"
+  },
+  "footer": {
+    "address": "Via Rombon 23, 20134 Milano · Tel. 02 2157232",
+    "rights": "© {{year}} Cartoleria Rombon di Mingardo Laura. All rights reserved."
+  }
+}
