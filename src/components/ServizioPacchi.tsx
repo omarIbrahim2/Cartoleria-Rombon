@@ -9,7 +9,7 @@ const carriers = [
     border: '#2563b0',
     desc: 'Ritiro e deposito pacchi Fermopoint. Ricevi i tuoi ordini direttamente in negozio, disponibile anche fuori orario di consegna.',
     badge: 'Ritiro & Deposito',
-    url: null,
+    url: 'https://www.fermopoint.it/traccia-un-ritiro',
   },
   {
     name: 'GLS',
