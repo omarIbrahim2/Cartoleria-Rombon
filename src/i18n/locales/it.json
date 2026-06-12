@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "services": "Servizi",
+    "parcels": "Servizio Pacchi",
+    "catalog": "Catalogo",
+    "hours": "Orari & Contatti"
+  },
+  "hero": {
+    "subtitle": "Il tuo punto di riferimento a Lambrate per cancelleria, fotocopie, spedizioni e molto altro.",
+    "cta_services": "I nostri servizi",
+    "cta_contact": "Orari e contatti"
+  },
+  "services": {
+    "label": "Cosa facciamo",
+    "title": "I nostri servizi",
+    "items": [
+      { "title": "Cancelleria & Ufficio", "desc": "Penne, matite, quaderni, agende, raccoglitori, buste, cartelline e tutto il necessario per scuola e ufficio." },
+      { "title": "Fotocopie & Stampa", "desc": "Fotocopie in bianco/nero e a colori, stampa documenti, plastificazione e rilegatura al momento." },
+      { "title": "Belle Arti", "desc": "Colori acrilici, ad olio, acquarelli, tele, pennelli e materiali per artisti professionisti e hobbisti." },
+      { "title": "Articoli Regalo", "desc": "Biglietti d'auguri, carte da regalo, nastri, fiocchi e articoli per confezionamento e cerimonie." },
+      { "title": "Personalizzazione", "desc": "Stampa su tazza, cuscini, teli mare, calendari personalizzati e gadget con le tue foto o loghi." },
+      { "title": "Spedizioni & Pacchi", "desc": "Ritiro e consegna pacchi con Fermopoint, GLS, UPS e BRT. Imballaggi disponibili in negozio." }
+    ]
+  },
+  "parcels": {
+    "label": "Spedizioni e ritiri",
+    "title": "Servizio Pacchi",
+    "subtitle": "Siamo punto di ritiro e spedizione per i principali corrieri. Un solo posto per tutte le tue spedizioni.",
+    "carriers": [
+      { "desc": "Ritiro e deposito pacchi Fermopoint. Ricevi i tuoi ordini direttamente in negozio, disponibile anche fuori orario di consegna.", "badge": "Ritiro & Deposito" },
+      { "desc": "Punto di raccolta GLS autorizzato. Spedisci o ritira i tuoi pacchi GLS comodamente in negozio.", "badge": "Spedizioni" },
+      { "desc": "Access Point UPS ufficiale. Ritiro pacchi non consegnati e spedizioni verso tutto il mondo.", "badge": "Access Point" },
+      { "desc": "Punto di ritiro BRT (Bartolini). Gestisci le tue spedizioni BRT senza code, direttamente qui da noi.", "badge": "Punto Ritiro" }
+    ],
+    "info_title": "Nessun costo aggiuntivo per il ritiro",
+    "info_desc": "Porta semplicemente il tuo codice di ritiro o l'avviso di consegna mancata. Pensiamo a tutto noi.",
+    "announcement_badge": "Novità",
+    "announcement_title": "Spedizioni in tutta Italia e all'estero",
+    "announcement_desc": "Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio tramite <bold>Fermopoint</bold> o <bold>UPS</bold>. Il servizio prevede un <bold>costo aggiuntivo</bold> in base a destinazione, peso e dimensioni. La dimensione massima accettata per ogni pacco è <bold>50 × 35 × 30 cm</bold>."
+  },
+  "catalog": {
+    "label": "Cosa trovi da noi",
+    "title": "Il nostro catalogo",
+    "items": [
+      { "name": "Cancelleria", "products": ["Quaderni a righe e quadretti", "Diari e agende annuali", "Blocchi notes", "Post-it e memo pad", "Penne a sfera e gel", "Matite e matite colorate", "Evidenziatori", "Pennarelli e marcatori"] },
+      { "name": "Organizzazione", "products": ["Raccoglitori e cartelline", "Buste e portalistini", "Rubbriche e schedari", "Spillatrici e perforatrici"] },
+      { "name": "Belle Arti", "products": ["Colori acrilici e ad olio", "Pennelli e tavolozze", "Tele e blocchi da disegno", "Acquarelli e pastelli"] },
+      { "name": "Articoli Regalo", "products": ["Biglietti e cartes", "Carta da regalo e nastri", "Scatole e confezionamento", "Decorazioni e fiocchi"] },
+      { "name": "Carta & Stampa", "products": ["Risme di carta A4/A3", "Carta fotografica", "Etichette adesive", "Carta speciale per inkjet"] }
+    ]
+  },
+  "hours": {
+    "when_label": "Quando siamo aperti",
+    "when_title": "Orari",
+    "schedule": [
+      { "day": "Lunedì – Venerdì", "hours": "08:30 – 13:00 / 15:00 – 19:00" },
+      { "day": "Sabato", "hours": "09:00 – 13:00" },
+      { "day": "Domenica", "hours": "Chiuso" }
+    ],
+    "closed": "Chiuso",
+    "where_label": "Dove siamo",
+    "where_title": "Contatti",
+    "contacts": [
+      { "label": "Indirizzo", "value": "Via Rombon 23, 20134 Milano" },
+      { "label": "Telefono", "value": "02 2157232" },
+      { "label": "Metro", "value": "M2 Lambrate (5 min a piedi)" }
+    ],
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_note": "solo messaggi",
+    "whatsapp_value": "+39 344 0729",
+    "maps_btn": "Aprire in Google Maps"
+  },
+  "footer": {
+    "address": "Via Rombon 23, 20134 Milano · Tel. 02 2157232",
+    "rights": "© {{year}} Cartoleria Rombon di Mingardo Laura. Tutti i diritti riservati."
+  }
+}
