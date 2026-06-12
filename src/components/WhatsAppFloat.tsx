@@ -9,7 +9,7 @@ export default function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        position: 'fixed', bottom: 24, left: 24, zIndex: 200,
+        position: 'fixed', bottom: 24, right: 24, zIndex: 200,
         width: 56, height: 56, borderRadius: '50%',
         background: '#25D366', display: 'flex', alignItems: 'center', justifyContent: 'center',
         boxShadow: '0 4px 16px rgba(37,211,102,0.4)',
