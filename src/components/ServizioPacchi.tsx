@@ -100,22 +100,11 @@ export default function ServizioPacchi() {
             <p style={{ color: '#92400e', fontWeight: 700, fontSize: 17, marginBottom: 6 }}>
               Spedizioni in tutta Italia e all&apos;estero
             </p>
-            <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7, marginBottom: 16 }}>
+            <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7 }}>
               Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio
               tramite <strong>Fermopoint</strong> o <strong>UPS</strong>.
               Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione e peso.
             </p>
-            <Hoverable
-              as="a"
-              href="#orari"
-              style={{
-                display: 'inline-flex', alignItems: 'center', gap: 6,
-                background: '#f59e0b', color: '#fff', padding: '10px 20px',
-                borderRadius: 6, fontSize: 13, fontWeight: 700, transition: 'background 0.2s',
-              }}
-              hoverStyle={{ background: '#d97706' }}>
-              Chiedi il preventivo →
-            </Hoverable>
           </div>
         </Hoverable>
       </div>
