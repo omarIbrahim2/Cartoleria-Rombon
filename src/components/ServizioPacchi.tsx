@@ -12,8 +12,8 @@ const carriers = [
   {
     name: 'GLS',
     logo: '🔵',
-    color: '#e8f4fd',
-    border: '#2563b0',
+    color: '#eff6ff',
+    border: '#3b82f6',
     desc: 'Punto di raccolta GLS autorizzato. Spedisci o ritira i tuoi pacchi GLS comodamente in negozio.',
     badge: 'Spedizioni',
   },
