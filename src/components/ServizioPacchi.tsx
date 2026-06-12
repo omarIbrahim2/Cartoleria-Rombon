@@ -82,23 +82,42 @@ export default function ServizioPacchi() {
         </div>
 
         {/* Spedizioni annuncio */}
-        <div style={{
-          marginTop: 20, background: '#fefce8', border: '2px solid #f59e0b', borderRadius: 12,
-          padding: '24px 32px', display: 'flex', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap',
-        }}>
-          <span style={{ fontSize: 28 }}>📢</span>
-          <div>
-            <p style={{ color: '#92400e', fontWeight: 700, fontSize: 16, marginBottom: 6 }}>
-              Nuovo servizio: Spedizioni in tutta Italia e all'estero
+        <Hoverable
+          className="announcement-pulse"
+          style={{
+            marginTop: 20, background: '#fefce8', border: '2px solid #f59e0b', borderRadius: 12,
+            padding: '24px 32px', display: 'flex', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap',
+            position: 'relative', overflow: 'hidden', transition: 'transform 0.2s, box-shadow 0.2s',
+          }}
+          hoverStyle={{ transform: 'translateY(-4px)', boxShadow: '0 8px 24px rgba(245,158,11,0.25)' }}>
+          <span style={{
+            position: 'absolute', top: 16, right: 16, background: '#f59e0b', color: '#fff',
+            fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase',
+            padding: '3px 10px', borderRadius: 20,
+          }}>Novità</span>
+          <span className="announcement-icon" style={{ fontSize: 36 }}>📢</span>
+          <div style={{ flex: 1 }}>
+            <p style={{ color: '#92400e', fontWeight: 700, fontSize: 17, marginBottom: 6 }}>
+              Spedizioni in tutta Italia e all&apos;estero
             </p>
-            <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7 }}>
+            <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7, marginBottom: 16 }}>
               Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio
               tramite <strong>Fermopoint</strong> o <strong>UPS</strong>.
               Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione e peso.
-              Vieni in negozio per un preventivo!
             </p>
+            <Hoverable
+              as="a"
+              href="#orari"
+              style={{
+                display: 'inline-flex', alignItems: 'center', gap: 6,
+                background: '#f59e0b', color: '#fff', padding: '10px 20px',
+                borderRadius: 6, fontSize: 13, fontWeight: 700, transition: 'background 0.2s',
+              }}
+              hoverStyle={{ background: '#d97706' }}>
+              Chiedi il preventivo →
+            </Hoverable>
           </div>
-        </div>
+        </Hoverable>
       </div>
     </section>
   )
