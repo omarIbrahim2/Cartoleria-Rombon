@@ -1,6 +1,5 @@
 const categorie = [
-  { icon: '📓', nome: 'Quaderni & Agende', prodotti: ['Quaderni a righe e quadretti', 'Diari e agende annuali', 'Blocchi notes', 'Post-it e memo pad'] },
-  { icon: '🖊️', nome: 'Penne & Matite', prodotti: ['Penne a sfera e gel', 'Matite e matite colorate', 'Evidenziatori', 'Pennarelli e marcatori'] },
+  { icon: '✏️', nome: 'Cancelleria', prodotti: ['Quaderni a righe e quadretti', 'Diari e agende annuali', 'Blocchi notes', 'Post-it e memo pad', 'Penne a sfera e gel', 'Matite e matite colorate', 'Evidenziatori', 'Pennarelli e marcatori'] },
   { icon: '📂', nome: 'Organizzazione', prodotti: ['Raccoglitori e cartelline', 'Buste e portalistini', 'Rubbriche e schedari', 'Spillatrici e perforatrici'] },
   { icon: '🖼️', nome: 'Belle Arti', prodotti: ['Colori acrilici e ad olio', 'Pennelli e tavolozze', 'Tele e blocchi da disegno', 'Acquarelli e pastelli'] },
   { icon: '🎀', nome: 'Articoli Regalo', prodotti: ['Biglietti e cartes', 'Carta da regalo e nastri', 'Scatole e confezionamento', 'Decorazioni e fiocchi'] },
