@@ -103,7 +103,7 @@ export default function ServizioPacchi() {
             <p style={{ color: '#78350f', fontSize: 14, lineHeight: 1.7 }}>
               Ora puoi spedire i tuoi pacchi ovunque — in Italia e nel mondo — direttamente dal nostro negozio
               tramite <strong>Fermopoint</strong> o <strong>UPS</strong>.
-              Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione e peso.
+              Il servizio prevede un <strong>costo aggiuntivo</strong> in base a destinazione, peso e dimensioni.
             </p>
           </div>
         </Hoverable>
