@@ -48,7 +48,7 @@ export default function Orari() {
           ))}
           <Hoverable
             as="a"
-            href="https://wa.me/393440729"
+            href="https://wa.me/3934407289"
             target="_blank"
             rel="noopener noreferrer"
             style={{ display: 'flex', gap: 16, padding: '14px 0', borderBottom: '1px solid rgba(255,255,255,0.1)', transition: 'opacity 0.2s' }}

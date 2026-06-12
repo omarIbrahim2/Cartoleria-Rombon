@@ -5,7 +5,7 @@ export default function WhatsAppFloat() {
   return (
     <Hoverable
       as="a"
-      href="https://wa.me/393440729"
+      href="https://wa.me/3934407289"
       target="_blank"
       rel="noopener noreferrer"
       style={{
